@@ -15,4 +15,8 @@ Route::get('/partials/home', function () {
     return view('/partials/main/home');
 });
 
+Route::get('/partials/news', function () {
+    return view('/partials/main/news');
+});
+
 Route::any('{all}', 'MainController@index')->where('all', '.*');

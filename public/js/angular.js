@@ -333,6 +333,10 @@ function($routeProvider, $locationProvider, $interpolateProvider, $provide) {
             templateUrl: '/partials/home',
             controller: 'HomeController'
         }).
+        when('/noticias', {
+            templateUrl: '/partials/news',
+            controller: 'NewsController'
+        }).
         otherwise({
             redirectTo: function(){
                 return '/inicio'

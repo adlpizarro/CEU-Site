@@ -39,6 +39,8 @@
         <div class="container">
             <div class="content">
                 Laravel 5
+                <a ng-href="/inicio">Home</a>
+                <a ng-href="/noticias">Noticias</a>
                 <ng-view cache-view="false">
                 </ng-view>
             </div>
